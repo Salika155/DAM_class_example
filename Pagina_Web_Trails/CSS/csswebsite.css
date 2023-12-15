@@ -1,0 +1,330 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+.header {
+  font-size: 0;
+  vertical-align: top;
+
+}
+
+.header img {
+  max-width: 100%;
+  border: #017efc solid 3px;
+}
+
+
+.noborde img {
+  border: 0px;
+}
+
+/* Ese cuerpo */
+.body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1;
+}
+
+
+/* Top Nav bar */
+.navbar {
+  display: flex;
+  background-color: #25517c;
+
+}
+
+/* Enlaces de la navbar */
+.navbar a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: white;
+  padding: 18px 25px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Color en hover */
+.navbar a:hover {
+  background-color: #046ad1;
+  color: black;
+}
+
+
+
+/* Columna peque izq */
+aside {
+  width: 380Px;
+  height: fit-content;
+  float: left;
+  flex: 30%;
+  background-color: #aaa;
+  padding: 30px;
+  font-size: 22px;
+  font-style: normal;
+  vertical-align: top;
+  text-align: center;
+  color: black;
+  margin-right: 25px;
+}
+
+.aside > p {
+  font-size: 18px;
+  text-align: justify;
+  font-style: italic;
+}
+
+aside > figure{
+  padding-top: 30px;
+}
+
+
+/* columna central derecha */
+main {
+  
+  text-align: center;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 15px;
+  margin-left: 20px;
+}
+
+main > section > article > header > h1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer */
+footer {
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background: black;
+}
+
+/* footer texto*/
+.texto {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  padding: 25px;
+  padding-bottom: 40px;
+  text-align: justify;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  bottom: 0;
+}
+
+
+/*hacer responsive para resoluciones de hasta 4000*/
+/* Responsive layout */
+@media screen and (max-width: 700px) {
+
+  .row,
+  .navbar,
+  .header,
+  .contenedor-imagen,
+  .form
+ {
+    flex-direction: column;
+  }
+}
+
+
+@media only screen and (max-width: 1342px) {
+  #cuerpocolumna {
+    display: none;
+  }
+  form{
+width: 100%;
+margin: 0;
+
+  }
+}
+
+/* Estilos para pantallas medianas y grandes */
+@media only screen and (max-width: 700px) {
+  
+  .contenedor-imagen img, .contenedor-video iframe, form {
+    width: 80%; /* La imagen ocupa la mitad del ancho del contenedor */
+    height: auto; /* La altura se ajusta automáticamente al ancho */
+  }
+}
+
+/* Responsive layout */
+@media screen and (max-width: 450px) {
+
+  .row,
+  .navbar,
+  .header
+  
+ {
+    flex-direction: column;
+  }
+}
+
+/* Estilos para pantallas medianas y grandes */
+@media only screen and (max-width: 450px) {
+  
+  .contenedor-imagen img, .contenedor-video iframe, form {
+    width: 50%; /* La imagen ocupa la mitad del ancho del contenedor */
+    height: auto; /* La altura se ajusta automáticamente al ancho */
+  }
+}
+
+/* Estilos para pantallas medianas y grandes */
+@media only screen and (max-width: 350px) {
+  
+  .contenedor-imagen img, .contenedor-video iframe, form {
+    align-content: center;
+    width: 90%; /* La imagen ocupa x del ancho del contenedor */
+    height: auto; /* La altura se ajusta automáticamente al ancho */
+  }
+  
+}
+
+
+
+/*tablas*/
+.wikitable {
+  background-color: #ffffff;
+  color: #202122;
+  margin: 1em 1em;
+  border: 1px solid #a2a9b1;
+  border-collapse: collapse;
+
+}
+
+.table {
+  font-size: 20px;
+}
+
+th,
+td {
+  width: 20%;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 0.3em;
+}
+
+caption {
+  padding: 0.3em;
+}
+
+.texto {
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/*Para centrar imagenes*/
+.contenedor-imagen {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*Para centrar videos*/
+.contenedor-video {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*Formulario*/
+.form {
+  background-color: lightsteelblue;
+  padding: 80px;
+  padding-top: 20px;
+  color: #202122;
+  background-position: center;
+  margin: 20px auto;
+  width: auto;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 0.8em;
+  margin-left: 1%;
+  
+  padding-left: 20px;
+}
+
+/*Campos del formulario*/
+.field {
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+  padding: 8px;
+}
+
+.field:focus {
+  border-color: #017efc;
+}
+
+.center-content {
+  text-align: center;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+input,
+checkbox {
+  outline-style: none;
+}
+
+.button {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ccc;
+  box-shadow: 0 1px 1px #017efc;
+}
