@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ 
+.header {
+  font-size: 0;
+  vertical-align: top;
+  
+}
+
+img {
+  border:#017efc solid 3px;
+}
+
+
+.noborde img {
+border: 0px;
+  }
+  
+  /* Ese cuerpo */
+  .body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1;
+  }
+
+  
+  /* Top Nav bar */
+  .navbar {
+    display: flex;
+    background-color: #25517c;
+    flex-flow: row-reverse;
+  }
+  
+  /* Enlaces de la navbar */
+  .navbar a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: white;
+    padding: 14px 10px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  /* Color en hover */
+  .navbar a:hover {
+    background-color: #046ad1;
+    color: black;
+  }
+  
+  /* Column container */
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Columna peque */
+  .main {
+    flex: 30%;
+    background-color: #aaa;
+    padding: 20px;
+    font-size: 25px;
+    vertical-align: top;
+    text-align: center;
+    color:black;
+  }
+  .entrc {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 15px;
+  }
+  
+  /* Columna grande */
+  .side {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+
+  
+  /* Footer */
+  .footer {
+    padding: 30px;
+    color: white;
+    text-align: center;
+    background: black;
+  }
+
+.texto {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+    padding: 25px;
+    padding-bottom: 40px;
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    }
+
+  /* Responsive layout */
+  @media screen and (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
+
+  /*tablas*/
+  .wikitable {
+      background-color: #ffffff;
+      color: #202122;
+      margin: 1em 1em;
+      border: 1px solid #a2a9b1;
+      border-collapse: collapse;
+      
+  }
+  .table { 
+      font-size: 20px;
+  }
+
+th, td {
+   width: 20%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   padding: 0.3em;
+}
+caption {
+   padding: 0.3em;
+}
+
+.texto{
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom:20px;
+}
+
+/*Para centrar imagenes*/
+.img-container {
+  text-align: center;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+/*Formulario*/
+.form{
+  background-color: darkgray;
+  padding: 80px;
+  padding-top: 20px;
+  color: #202122;
+  background-position: center;
+  margin: 0 auto;
+  width: auto;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+/*Campos del formulario*/
+.field{
+  box-sizing: border-box;
+  border-radius: 5px;
+  border:solid 1px #ccc;
+  padding: 8px;
+}
+
+.field:focus{
+border-color: #017efc;
+}
+
+.center-content{
+  text-align: center;
+}
+
+input, textarea{
+outline: none;
+}
+
+input, checkbox{
+  outline-style: none;
+}
+
+.button{
+  border-radius: 3px;
+  display: inline-block;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-shadow:0 1px 0 #ccc;
+  box-shadow:0 1px 1px #017efc;
+}
+
