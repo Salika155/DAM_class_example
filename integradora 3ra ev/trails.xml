@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="trails1.xsl"?>
+<!DOCTYPE result SYSTEM "trails.dtd">
+
+<result tema="XML">
+  <game>
+    <title>The Legend of Heroes: Trails</title>
+    <characters>
+      <character>
+      <nameCharacter>Rean Schwarzer</nameCharacter>
+        <gender>Male</gender>
+        <weapon>Sword</weapon>
+        <arc>Trails of Cold Steel</arc>
+        <class>VII Class President</class>
+        <occupation>Student, Awakener, Divine Blade</occupation>
+        <affiliation>Thors Military Academy</affiliation>
+         <equipment>
+          <item>Divine Knight: Valimar</item>
+        </equipment>
+        <abilities>
+        <ability>Awakener (power to control Divine Knights)</ability>
+        </abilities>
+      </character>
+
+      <character>
+        <nameCharacter>Estelle Bright</nameCharacter>
+        <gender>Female</gender>
+        <weapon>Staff</weapon>
+        <arc>Trails in the Sky</arc>
+        <class>Bracer</class>
+        <occupation>Active Bracer, from the Bracers Guild</occupation>
+        <affiliation>Bracer Guild</affiliation>
+      </character>
+
+      <character>
+        <nameCharacter>Kloe Rintz</nameCharacter>
+        <gender>Female</gender>
+        <weapon>Orbal Staff</weapon>
+        <arc>Trails in the Sky</arc>
+        <class>Student</class>
+        <occupation>Student in Saint Astray Academy</occupation>
+        <affiliation>Liberl Kingdom Citizen</affiliation>
+      </character>
+
+       <character>
+        <nameCharacter>Agate Crosner</nameCharacter>
+        <gender>Male</gender>
+        <weapon>Greatsword</weapon>
+        <arc>Trails in the Sky</arc>
+        <class>Bracer</class>
+        <occupation>Active Bracer, from the Bracers Guild</occupation>
+        <affiliation>Bracer Guild</affiliation>
+      </character>
+
+       <character>
+        <nameCharacter>Tita Rusell</nameCharacter>
+        <gender>Female</gender>
+        <weapon>Orbal Gun</weapon>
+        <arc>Trails in the Sky</arc>
+        <class>Engineer</class>
+        <occupation>Engining with his grandfather and her mom</occupation>
+        <affiliation>Liberl Kingdom Citizen</affiliation>
+      </character>
+    
+      <character>
+        <nameCharacter>Lloyd Bannings</nameCharacter>
+        <gender>Male</gender>
+        <weapon>Dual Swords</weapon>
+        <arc>Trails from Zero</arc>
+        <class>Police Detective</class>
+        <occupation>Police Inspector</occupation>
+        <affiliation>Special Support Section</affiliation>
+        <abilities>
+          <ability>Police tactics and investigations</ability>
+        </abilities>
+      </character>
+
+      <character>
+        <nameCharacter>Joshua Bright</nameCharacter>
+        <gender>Male</gender>
+        <weapon>Orbal Gun</weapon>
+        <arc>Trails in the Sky</arc>
+        <class>Bracer</class>
+        <occupation>Active Bracer, from the Bracers Guild</occupation>
+        <affiliation>Bracer Guild</affiliation>
+      </character>
+
+      <character>
+        <nameCharacter>Alisa Reinford</nameCharacter>
+        <gender>Female</gender>
+        <weapon>Orbal Bow</weapon>
+        <arc>Trails of Cold Steel</arc>
+        <class>Member of Class VII</class>
+        <occupation>Student Thors Military Academy Class VII and daugther of the Boss of Reinford Company</occupation>
+        <affiliation>Thors Military Academy</affiliation>
+      </character>
+      <character>
+        <nameCharacter>Emma Millstein</nameCharacter>
+        <gender>Female</gender>
+        <weapon>Orbal Staff</weapon>
+        <arc>Trails of Cold Steel</arc>
+        <class>Member of Class VII</class>
+        <occupation>Student Thors Military Academy Class VII</occupation>
+        <affiliation>Thors Military Academy</affiliation>
+      </character>
+      <character>
+        <nameCharacter>Eliot Craig</nameCharacter>
+        <gender>Male</gender>
+        <weapon>Orbal Staff</weapon>
+        <arc>Trails of Cold Steel</arc>
+        <class>Member of Class VII</class>
+        <occupation>Student Thors Military Academy Class VII</occupation>
+        <affiliation>Thors Military Academy</affiliation>
+      </character>
+      <character>
+        <nameCharacter>Jusis Albarea</nameCharacter>
+        <gender>Male</gender>
+        <weapon>Knight Sword</weapon>
+        <arc>Trails of Cold Steel</arc>
+        <class>Member of Class VII</class>
+        <occupation>Student Thors Military Academy Class VII</occupation>
+        <affiliation>Thors Military Academy</affiliation>
+      </character>
+        <character>
+        <nameCharacter>Machias Regnitz</nameCharacter>
+        <gender>Male</gender>
+        <weapon>Orbal Shotgun</weapon>
+        <arc>Trails of Cold Steel</arc>
+        <class>Member of Class VII</class>
+        <occupation>Student Thors Military Academy Class VII</occupation>
+        <affiliation>Thors Military Academy</affiliation>
+      </character>
+      <character>
+        <nameCharacter>Crow Armbrust</nameCharacter>
+        <gender>Male</gender>
+        <weapon>Dual Pistols</weapon>
+        <arc>Trails of Cold Steel</arc>
+        <class>Member of Class VII</class>
+        <occupation>Student Thors Military Academy Class VII</occupation>
+        <affiliation>Thors Military Academy</affiliation>
+      </character>
+      <character>
+        <nameCharacter>Millium Orion</nameCharacter>
+        <gender>Female</gender>
+        <weapon>Airgetlam</weapon>
+        <arc>Trails of Cold Steel</arc>
+        <class>Member of Class VII</class>
+        <occupation>Student Thors Military Academy Class VII</occupation>
+        <affiliation>Thors Military Academy</affiliation>
+      </character>
+      <character>
+        <nameCharacter>Laura S. Arseid</nameCharacter>
+        <gender>Female</gender>
+        <weapon>Greatsword</weapon>
+        <arc>Trails of Cold Steel</arc>
+        <class>Member of Class VII</class>
+        <occupation>Student Thors Military Academy Class VII</occupation>
+        <affiliation>Thors Military Academy</affiliation>
+      </character>
+      <character>
+        <nameCharacter>Gaius Worzel</nameCharacter>
+        <gender>Male</gender>
+        <weapon>Spear</weapon>
+        <arc>Trails of Cold Steel</arc>
+        <class>Member of Class VII</class>
+        <occupation>Student Thors Military Academy Class VII</occupation>
+        <affiliation>Thors Military Academy</affiliation>
+      </character>
+      <character>
+        <nameCharacter>Fie Claussell</nameCharacter>
+        <gender>Female</gender>
+        <weapon>Twin gunswords</weapon>
+        <arc>Trails of Cold Steel</arc>
+        <class>Member of Class VII</class>
+        <occupation>Student Thors Military Academy Class VII</occupation>
+        <affiliation>Thors Military Academy</affiliation>
+      </character>
+      <character>
+        <nameCharacter>Sara Valestein</nameCharacter>
+        <gender>Female</gender>
+        <weapon>Sword and Gun</weapon>
+        <arc>Trails of Cold Steel</arc>
+        <class>Instructor in Thors Military Academy and Bracer Member</class>
+        <occupation>Instructor of Thors Military Academy Class VII</occupation>
+        <affiliation>Thors Military Academy</affiliation>
+      </character>
+    </characters>
+
+    <world>
+      <countries>
+        <country>
+          <nameCountry>Erebonia</nameCountry>
+          <capital>Heimdallr</capital>
+          <leaderCountry>Canciller Giliath Osborne</leaderCountry>
+          <leaderCountry>Emperor Eugent III</leaderCountry>
+          <regimen>Imperio con Monarquía</regimen>
+          <cities>
+            <city>Trista</city>
+            <city>Roer</city>
+            <city>Celdic</city>
+            <city>Bareahard</city>
+          </cities>
+          <nobles>
+            <noble>Rogner</noble>
+            <noble>Hyarms</noble>
+            <noble>Albarea</noble>
+            <noble>Cayenne</noble>
+          </nobles>
+          <military>
+            <general>Reinford</general>
+            <general>Le Guin</general>
+            <general>Cayenne</general>
+          </military>
+        </country>
+        <country>
+          <nameCountry>Calvard</nameCountry>
+          <capital>Edith</capital>
+          <leaderCountry>Roy Gramheart</leaderCountry>
+          <regimen>República Federal</regimen>
+          <cities>
+            <city>Langport</city>
+            <city>Oración</city>
+            <city>Altair</city>
+            <city>Longlai</city>
+            <city>Basel</city>
+            <city>Tharbad</city>
+            <city>Messeldam</city>
+            <city>Anchorville</city>
+          </cities>
+        </country>
+        <country>
+          <nameCountry>Liberl</nameCountry>
+          <capital>Grancel</capital>
+          <leaderCountry>Alicia von Auslese</leaderCountry>
+          <regimen>Monarquía</regimen>
+          <cities>
+            <city>Ruan</city>
+            <city>Zeiss</city>
+            <city>Bose</city>
+            <city>Rolent</city>
+          </cities>
+          <nobles>
+            <noble>Cassius Bright</noble>
+            <noble>Duke Dunan</noble>
+            <noble>Mayor Maybelle</noble>
+          </nobles>
+          <military>
+            <general>Cassius Bright</general>
+          </military>
+        </country>
+
+        <country>
+          <nameCountry>Crossbell</nameCountry>
+          <capital>Crossbell City</capital>
+          <leaderCountry>Henry MacDowell</leaderCountry>
+          <regimen>Ciudad Estado</regimen>
+          <military>
+            <general>Jefe de las R.R.S.S.</general>
+          </military>
+        </country>
+      </countries>
+    </world>
+
+    <villains>
+      <villain>
+        <nameEnemyGroup>Ouroboros</nameEnemyGroup>
+        <leaderVillains>Grandmaster</leaderVillains>
+        <purpose>To shape the world according to their ideals</purpose>
+        <members>
+          <member>Arianrhod</member>
+          <member>McBurn</member>
+          <member>Campanella</member>
+          <member>Enforcer No. I: Luciola</member>
+          <member>Enforcer No. II: Walter</member>
+          <member>Enforcer No. III: Renne</member>
+          <member>Enforcer No. IV: Bleublanc</member>
+          <member>Enforcer No. V: Sharon</member>
+          <member>Enforcer No. VI: Duvalie</member>
+          <member>Enforcer No. VII: McBurn</member>
+          <member>Enforcer No. VIII: Vita Clotilde</member>
+          <member>Enforcer No. IX: Azure Siegfried</member>
+          <member>Enforcer No. X: F. Novartis</member>
+        </members>
+      </villain>
+      <villain>
+        <nameEnemyGroup>Noble Alliance</nameEnemyGroup>
+        <leaderVillains>Duke Cayenne</leaderVillains>
+        <purpose>To overthrow the Imperial government and install a new aristocratic rule</purpose>
+        <members>
+          <member>The 4 Great Noble Houses</member>
+          <member>Terrorist Group against the Cancellor</member>
+          <member>Ouroboros</member>
+          <member>Jaegers</member>
+        </members>
+      </villain>
+      
+      <villain>
+        <nameEnemyGroup>Jaegers</nameEnemyGroup>
+        <leaderVillains>Deiter Crois</leaderVillains>
+        <purpose>Mercenaries for hire</purpose>
+        <members>
+          <member>Zephyr</member>
+          <member>Red Constellation</member>
+          <member>Jaeger King</member>
+        </members>
+      </villain>
+    </villains>
+  </game>
+</result>

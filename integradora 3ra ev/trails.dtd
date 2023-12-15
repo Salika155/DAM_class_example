@@ -1,0 +1,43 @@
+
+<!ELEMENT result (game)>
+<!ATTLIST result tema CDATA #REQUIRED>
+
+<!ELEMENT game (title, characters, world, villains)>
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT characters (character+)>
+<!ELEMENT character (nameCharacter, gender, weapon, arc, class, occupation, affiliation, equipment?, abilities?)>
+<!ELEMENT nameCharacter (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT weapon (#PCDATA)>
+<!ELEMENT arc (#PCDATA)>
+<!ELEMENT class (#PCDATA)>
+<!ELEMENT occupation (#PCDATA)>
+<!ELEMENT affiliation (#PCDATA)>
+<!ELEMENT equipment (item)>
+<!ELEMENT item (#PCDATA)>
+<!ELEMENT abilities (ability+)>
+<!ELEMENT ability (#PCDATA)>
+
+<!ELEMENT world (countries+)>
+<!ELEMENT countries (country+)>
+    
+<!ELEMENT country (nameCountry, capital, leaderCountry+, regimen, cities?, nobles?, military?)>
+<!ELEMENT nameCountry (#PCDATA)>
+<!ELEMENT capital (#PCDATA)>
+<!ELEMENT leaderCountry (#PCDATA)>
+<!ELEMENT regimen (#PCDATA)>
+<!ELEMENT cities (city+)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT nobles (noble+)>
+<!ELEMENT noble (#PCDATA)>
+<!ELEMENT military (general+)>
+<!ELEMENT general (#PCDATA)>
+
+<!ELEMENT villains (villain+)>
+<!ELEMENT villain (nameEnemyGroup, leaderVillains, purpose, members)>
+<!ELEMENT nameEnemyGroup (#PCDATA)>
+<!ELEMENT leaderVillains (#PCDATA)>
+<!ELEMENT purpose (#PCDATA)>
+<!ELEMENT members (member+)>
+<!ELEMENT member (#PCDATA)>
